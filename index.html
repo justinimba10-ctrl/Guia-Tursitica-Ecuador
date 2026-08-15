@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <title>Guía Turística de Ecuador</title>
+    <style>
+        * {
+        }
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #263238;
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+        }
+        header h1 {
+            margin-bottom: 10px;
+        }
+        nav {
+            background-color: #37474f;
+            padding: 15px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        main {
+            max-width: 1000px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+        section {
+            background-color: white;
+            padding: 30px;
+            margin-bottom: 25px;
+            border-radius: 10px;
+        }
+        section h2 {
+            margin-bottom: 15px;
+            color: #263238;
+        }
+        .cards {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .card {
+            flex: 1;
+            min-width: 200px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+            background-color: #fafafa;
+        }
+        .card h3 {
+            margin-bottom: 10px;
+            color: #37474f;
+        }
+        input,
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            background-color: #263238;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            border-radius: 5px;
+        }
+        footer {
+            background-color: #263238;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Guía Turística de Ecuador</h1>
+        <p>
+            Conoce lugares, sabores y tradiciones de nuestro país.
+        </p>
+    </header>
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#destinos">Destinos</a>
+        <a href="#gastronomia">Gastronomía</a>
+        <a href="#cultura">Cultura</a>
+        <a href="#actividades">Actividades</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+    <main>
+        <!-- ========================= -->
+        <!-- INICIO -->
+        <!-- ========================= -->
+        <section id="inicio">
+            <h2>Bienvenidos</h2>
+            <p>
+                Ecuador es un país lleno de paisajes,
+                culturas, tradiciones y gastronomía.
+            </p>
+        </section>
+        <!-- ========================= -->
+        <!-- DESTINOS -->
+        <!-- ========================= -->
+        <section id="destinos">
+            <h2>Destinos turísticos</h2>
+            <div class="cards">
+                <div class="card">
+  <h3>Baños</h3>
+  <p>
+    Ciudad conocida por sus paisajes
+    y actividades de aventura junto a la cascada.
+  </p>
+</div>
+                <div class="card">
+                    <h3>Quito</h3>
+                    <p>
+                        Capital historica llena de
+                        cultura y miradores naturales.
+                    </p>
+                </div>
+                <div class="card">
+                    <h3>Galápagos</h3>
+                    <p>
+                        Archipiélago famoso por su
+                        biodiversidad y paisajes naturales.
+                    </p>
+                </div>
+                <div class="card">
+                    <h3>Cuenca</h3>
+                    <p>
+                        Ciudad conocida por su arquitectura,
+                        cultura e historia.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!-- ========================= -->
+        <!-- GASTRONOMÍA -->
+        <!-- ========================= -->
+        <section id="gastronomia">
+            <h2>Gastronomía</h2>
+            <div class="cards">
+                <div class="card">
+                    <h3>Encebollado</h3>
+                    <p>
+                        Plato tradicional preparado
+                        con pescado y otros ingredientes.
+                    </p>
+                </div>
+                <div class="card">
+                    <h3>Llapingachos</h3>
+                    <p>
+                        Preparación tradicional a base
+                        de papa.
+                    </p>
+                </div>
+                <div class="card">
+                    <h3>Fritada</h3>
+                    <p>
+                        Plato tradicional de la
+                        gastronomía ecuatoriana.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!-- ========================= -->
+        <!-- CULTURA -->
+        <!-- ========================= -->
+        <section id="cultura">
+            <h2>Cultura</h2>
+            <p>
+                Ecuador posee una gran diversidad
+                cultural y numerosas tradiciones.
+            </p>
+            <ul>
+                <li>Música tradicional</li>
+                <li>Fiestas populares</li>
+                <li>Artesanías</li>
+                <li>Tradiciones</li>
+            </ul>
+        </section>
+        <!-- ========================= -->
+        <!-- ACTIVIDADES -->
+        <!-- ========================= -->
+        <section id="actividades">
+            <h2>Actividades</h2>
+            <div class="cards">
+                <div class="card">
+                    <h3>Senderismo</h3>
+                    <p>
+                        Actividad para disfrutar
+                        de los paisajes naturales.
+                    </p>
+                </div>
+                <div class="card">
+                    <h3>Turismo de aventura</h3>
+                    <p>
+                        Actividades para quienes
+                        buscan nuevas experiencias.
+                    </p>
+                </div>
+                <div class="card">
+                    <h3>Turismo cultural</h3>
+                    <p>
+                        Una forma de conocer las
+                        tradiciones del país.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!-- ========================= -->
+        <!-- CONTACTO -->
+        <!-- ========================= -->
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>
+                ¿Quieres obtener más información?
+                Escríbenos.
+            </p>
+            <br>
+            <form>
+                <label>Nombre:</label>
+                <input
+                    type="text"
+                    placeholder="Escribe tu nombre"
+                >
+                <label>Correo:</label>
+                <input
+                    type="email"
+                    placeholder="correo@ejemplo.com"
+                >
+                <label>Mensaje:</label>
+                <textarea
+                    rows="5"
+                    placeholder="Escribe tu mensaje"
+                ></textarea>
+                <button type="submit">
+                    Enviar
+                </button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>
+            Curso de Git y GitHub
+        </p>
+        <p>
+            Proyecto colaborativo
+        </p>
+    </footer>
+</body>
+</html>
